@@ -16,3 +16,8 @@
 **Step 4: Add New Component Selector to App Template Page**
 - Copied component selector from `sales-person-list.component.ts`
 - Added component selector as a tag into `app.component.html`
+
+**Step 5: Generate a `SalesPerson` class**
+- `ng generate class sales-person-list/SalesPerson` generates class
+- `sales-person.ts` contains `SalesPerson` class
+  - Defined constructor & used parameter properties to define class
