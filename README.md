@@ -21,3 +21,7 @@
 - `ng generate class sales-person-list/SalesPerson` generates class
 - `sales-person.ts` contains `SalesPerson` class
   - Defined constructor & used parameter properties to define class
+
+**Step 6: Create Sample Data in `SalesPersonListComponent.ts`
+- Created array of sales person objects
+  - Included 4 sales person objects
