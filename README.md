@@ -3,3 +3,8 @@
   - no angular routing
   - CSS for style sheet format
 - `ng serve --open` runs project & opens project
+
+**Step 2: Update Main Template Page**
+- Clean up `app.component.html` file
+  - Deleted placeholder content
+  - Added h1 tag with title "Sales Team"
