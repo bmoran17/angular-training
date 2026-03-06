@@ -12,3 +12,7 @@
 **Step 3: Generate a New Component**
 - `ng generate component sales-person-list`
   - Creates files for new component
+
+**Step 4: Add New Component Selector to App Template Page**
+- Copied component selector from `sales-person-list.component.ts`
+- Added component selector as a tag into `app.component.html`
