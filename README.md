@@ -1,3 +1,4 @@
+## Sales Team Table
 **Step 1: Create a New Project**
 - `ng new sales-project` creates Angular project
   - no angular routing
@@ -22,6 +23,11 @@
 - `sales-person.ts` contains `SalesPerson` class
   - Defined constructor & used parameter properties to define class
 
-**Step 6: Create Sample Data in `SalesPersonListComponent.ts`
+**Step 6: Create Sample Data in `SalesPersonListComponent.ts`**
 - Created array of sales person objects
   - Included 4 sales person objects
+
+**Step 7: Build HTML Table Using Sample Data**
+- `sales-person-list.component.html` 
+  - Loop over array of sales person objects & populated each object in table
+  - Table displays first & last name, email, sales volume
