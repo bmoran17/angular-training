@@ -42,3 +42,7 @@
 **Step 2: Apply Bootstrap CSS Styles in Template**
 - Wrap original code in `app.component.html` in a `div` container
 - Added bootstrap styles 
+
+**Step 3: Apply Bootstrap CSS Styles in HTML Table**
+- Created new file: `sales-person-list-bootstrap.component.html`
+  - Copied original HTML table & added Bootstrap styles
