@@ -55,3 +55,9 @@ ___
 
 **After Applying Bootstrap Styles:**
 ![Sales Team Table with Bootstrap](sales-project/src/assets/images/sales-team-table-bootstrap.png)
+
+## Using Angular Conditionals & Formatting
+- Used the structural directive `ngIf` to show content based on a condition
+  - Added a new column for "Met Quota?" that displays "Yes" if sales volume >= 60000 or "No" if not met
+- Formatted sales volume as currency US dollars
+  - Used angular pipes to format
