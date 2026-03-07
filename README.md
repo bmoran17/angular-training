@@ -36,5 +36,9 @@
 ![Sales Team Table](sales-project/src/assets/images/sales-team-table.png)
 
 ## Integrating Angular & Bootstrap CSS
-Step 1: Add Bootstrap Files
+**Step 1: Add Bootstrap Files"**
 - Added remote Bootstrap Files to `index.html` 
+
+**Step 2: Apply Bootstrap CSS Styles in Template**
+- Wrap original code in `app.component.html` in a `div` container
+- Added bootstrap styles 
