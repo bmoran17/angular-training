@@ -31,3 +31,10 @@
 - `sales-person-list.component.html` 
   - Loop over array of sales person objects & populated each object in table
   - Table displays first & last name, email, sales volume
+
+**Current Table**
+![Sales Team Table](sales-project/src/assets/images/sales-team-table.png)
+
+## Integrating Angular & Bootstrap CSS
+Step 1: Add Bootstrap Files
+- Added remote Bootstrap Files to `index.html` 
