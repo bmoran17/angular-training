@@ -1,5 +1,6 @@
 # Angular & Bootstrap Practice
-___
+**Includes practice with Angular conditionals & formatting**
+
 ## Creating a Page Displaying a Sales Team Table 
 **Step 1: Create a New Project**
 - `ng new sales-project` creates Angular project
@@ -61,3 +62,4 @@ ___
   - Added a new column for "Met Quota?" that displays "Yes" if sales volume >= 60000 or "No" if not met
 - Formatted sales volume as currency US dollars
   - Used angular pipes to format
+
