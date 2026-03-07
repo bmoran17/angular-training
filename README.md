@@ -1,4 +1,6 @@
-## Sales Team Table
+# Angular & Bootstrap Practice
+___
+## Creating a Page Displaying a Sales Team Table 
 **Step 1: Create a New Project**
 - `ng new sales-project` creates Angular project
   - no angular routing
@@ -32,7 +34,7 @@
   - Loop over array of sales person objects & populated each object in table
   - Table displays first & last name, email, sales volume
 
-**Current Table**
+**Current Table:**
 ![Sales Team Table](sales-project/src/assets/images/sales-team-table.png)
 
 ## Integrating Angular & Bootstrap CSS
@@ -46,3 +48,10 @@
 **Step 3: Apply Bootstrap CSS Styles in HTML Table**
 - Created new file: `sales-person-list-bootstrap.component.html`
   - Copied original HTML table & added Bootstrap styles
+
+**Step 4: Update TypeScript Component File**
+- Updated `templateURl` attribute to reference bootstrap HTML template `sales-person-list-bootstrap.component.html`
+
+
+**After Applying Bootstrap Styles:**
+![Sales Team Table with Bootstrap](sales-project/src/assets/images/sales-team-table-bootstrap.png)
